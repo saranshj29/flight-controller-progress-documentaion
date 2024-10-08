@@ -1,11 +1,11 @@
 # flight-controller-progress-documentaion
-The goal of this report is to document the progress made in the development of flight controllers for UAV (Unmanned Aerial Vehicle) vehicles using three different platforms: STM32F11CEU6, ESP32, and Teensy 4.0. Each project aimed to address specific requirements and take advantage of the unique features offered by each microcontroller
-Combined Progress Report: Development of Flight Controllers for UAV Vehicles
+
 1. Introduction
 The goal of this report is to document the progress made in the development of flight controllers for UAV (Unmanned Aerial Vehicle) vehicles using three different platforms: STM32F11CEU6, ESP32, and Teensy 4.0. Each project aimed to address specific requirements and take advantage of the unique features offered by each microcontroller, ultimately culminating in a comprehensive toolkit for building and operating UAV vehicles.
 
-2. Project 1: Flight Controller Using STM32F11CEU6 Development Board
-2.1 Overview
+2. ## Project 1: Flight Controller Using STM32F11CEU6 Development Board
+link-https://github.com/saranshj29/flight-controller-development
+2.1  Overview
 In this project, the STM32F11CEU6 development board was selected for its robustness and capabilities in handling flight control tasks. The aim was to develop a flight controller that could process data from various sensors to stabilize the aircraft during flight.
 
 2.2 Hardware Setup
@@ -30,12 +30,13 @@ Conducted initial flight tests, achieving satisfactory stability and control.
 Communication issues between the receiver and flight controller were resolved by verifying wiring and configurations.
 Sensor interference required repositioning components to improve accuracy.
 3. Project 2: Flight Controller Using ESP32
+link-https://github.com/saranshj29/esp32-based-flight-controller
 3.1 Overview
 For this project, the ESP32 was chosen as the flight controller due to its cost-effectiveness, built-in Wi-Fi and BLE capabilities, and high processing speed. The goal was to develop a responsive flight controller that could communicate wirelessly.
 
 3.2 Hardware Setup
 Components Used:
-
+# project 2
 ESP32 Development Board
 MPU6050 (IMU)
 ESCs and Brushless Motors
@@ -60,7 +61,8 @@ The Teensy 4.0 was utilized to create a versatile flight controller capable of s
 
 4.2 Hardware Setup
 Components Used:
-
+project 3 Flight Controller Using yeensy 4.0
+link-https://github.com/saranshj29/flight-controller-using-teensy-4.0-micro-controller
 Teensy 4.0 Microcontroller
 MPU6050 IMU
 ESCs and Brushless Motors
